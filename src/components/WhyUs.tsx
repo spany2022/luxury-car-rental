@@ -28,7 +28,7 @@ export function WhyUs() {
   return (
     <section className="relative overflow-hidden bg-graphite py-24 md:py-36" aria-labelledby="why-title">
       <div className="container-lux grid gap-16 lg:grid-cols-12 lg:gap-20">
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <p data-reveal className="eyebrow text-gold">Why Choose Us</p>
           <h2 id="why-title" data-reveal className="display mt-6 text-[clamp(2.6rem,5.6vw,5.25rem)]">
             Luxury Is in Every <em className="italic text-gold-soft">Detail</em>.

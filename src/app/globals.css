@@ -94,10 +94,13 @@
     justify-content: center;
     gap: 0.75rem;
     min-height: 3.25rem;
-    padding: 0 1.75rem;
+    max-width: 100%;
+    padding: 0.85rem 1.75rem;
     font-size: 0.75rem;
     font-weight: 600;
+    line-height: 1.4;
     letter-spacing: 0.2em;
+    text-align: center;
     text-transform: uppercase;
     transition:
       background-color 0.5s var(--ease-lux),
@@ -106,7 +109,18 @@
       transform 0.5s var(--ease-lux);
     isolation: isolate;
     overflow: hidden;
-    white-space: nowrap;
+  }
+  /* Keep labels on one line where there is room; let them wrap on narrow phones. */
+  @media (min-width: 400px) {
+    .btn {
+      white-space: nowrap;
+    }
+  }
+  @media (max-width: 399px) {
+    .btn {
+      padding-inline: 1.25rem;
+      letter-spacing: 0.16em;
+    }
   }
   .btn-gold {
     background: var(--color-gold);

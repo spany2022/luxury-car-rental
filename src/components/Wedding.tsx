@@ -66,7 +66,7 @@ export function Wedding() {
 
       <div className="bg-ivory py-24 text-obsidian md:py-32">
         <div className="container-lux grid gap-16 lg:grid-cols-12">
-          <div className="lg:col-span-5">
+          <div className="min-w-0 lg:col-span-5">
             <p data-reveal className="max-w-md font-serif text-2xl leading-snug md:text-3xl">
               Your wedding day is a sequence of entrances. We help you choose a vehicle worthy of each one.
             </p>

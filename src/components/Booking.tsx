@@ -197,7 +197,7 @@ export function Booking() {
     <section id="book" className="relative bg-ivory py-24 text-obsidian md:py-36" aria-labelledby="book-title">
       <div className="container-lux grid gap-16 lg:grid-cols-12 lg:gap-20">
         {/* Left — context and trust */}
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <p data-reveal className="eyebrow text-gold-ink">Booking Enquiry</p>
           <h2 id="book-title" data-reveal className="display mt-6 text-[clamp(2.6rem,5.6vw,5.25rem)]">
             Your Next <em className="italic text-gold-ink">Journey</em> Starts Here.
@@ -242,7 +242,7 @@ export function Booking() {
         </div>
 
         {/* Right — form */}
-        <div className="lg:col-span-7">
+        <div className="min-w-0 lg:col-span-7">
           <div className="relative border border-obsidian/10 bg-white/60 p-6 shadow-[0_40px_80px_-40px_rgba(11,11,13,0.25)] md:p-12">
             <span className="absolute inset-x-0 top-0 h-[2px] bg-gold" aria-hidden />
             <AnimatePresence mode="wait" initial={false}>
